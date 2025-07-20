@@ -215,6 +215,6 @@ src/
 - Kafka configuration is added in `application.properties`
 - For simplicity, this service uses a ConcurrentHashMap to track active events. In a real-world scenario with multiple instances of this service, a distributed cache solution like Redis would be preferred. 
 - This service uses a ScheduledThreadPoolExecutor to schedule tasks. In a real-world scenario with multiple instances, a distributed task scheduler like Quartz would be preferred.
-- 
+
 
 ---
